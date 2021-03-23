@@ -1,0 +1,7 @@
+<ng-container *ngFor="let product of products">
+  <div>
+    <b>{{product.name}}</b>
+    <br /> {{product.price}} - VAT: {{product.vat}}
+    <br /> {{product.createdAt.format('DD-MM-YYYY HH:mm')}}
+  </div>
+</ng-container>
